@@ -45,6 +45,7 @@ Add product filtering/sorting
 Add animations with GSAP or AOS
 
 🙌 Acknowledgements
+
 Tailwind CSS
 Font Awesome
 Google Fonts – Inter & Noto Serif
