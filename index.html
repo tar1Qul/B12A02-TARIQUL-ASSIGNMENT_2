@@ -11,6 +11,38 @@
     <link rel="shortcut icon" href="./assets/fav-croped.png" type="image/x-icon">
 </head>
 <body>
-    
+    <header class="lg:max-w-6xl mx-auto">
+        <!-- header sectiona starts from here -->
+        <nav class=" h-15 mt-5 lg:mt-10 flex items-center justify-between  mx-5">
+            <div class="nab-bar-logo h-full">
+                <img class="h-full w-full" src="assets/logo.png" alt="">
+            </div>
+            <!-- nav-for-only desktop -->
+            <ul class="hidden md:flex gap-15 items-center">
+                <li><a class="opacity-50 hover:opacity-100 transition 0.5s ease-in-out lg:text-[22px]" href="">Home</a></li>
+                <li><a class="opacity-50 hover:opacity-100 transition 0.5s ease-in-out lg:text-[22px]" href="">Shope</a>
+                </li>
+                <li><a class="opacity-50 hover:opacity-100 transition 0.5s ease-in-out lg:text-[22px]" href="">About us</a>
+                </li>
+                <li><a class="lg:text-[22px]" href=""><i class="fa-solid fa-cart-shopping lg:text-[22px]"></i> Cart
+                        ($56)</a></li>
+            </ul>
+            <div class="nav-bar-right text-2xl md:hidden">
+                <p><i class="fa-solid fa-cart-shopping "></i> Cart ($56)</p>
+            </div>
+        </nav>
+        <div class="hero my-4 mb-8 lg:my-10 lg:mt-30 mx-0 md:flex gap-12 flex-row-reverse">
+            <div class="hero-image w-full h-auto">
+                <img class="w-full h-full" src="assets/hero-flower.png" alt="">
+            </div>
+            <div class="hero-content mx-5 my-10 md:flex flex-col justify-end">
+                <h1 class="noto-serif-font uppercase me-20 font-bold text-[1.5rem] lg:text-[65px] lg:leading-20">Alwyas
+                    <span class="text-[var(--color-primary)]">fresh flowers</span></h1>
+                <p class="text-[14px] lg:text-[22px] text-black my-2 opacity-50">Indulge your senses with the beauty and
+                    fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of
+                    fresh flowers that are perfect for any occasion. </p>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
